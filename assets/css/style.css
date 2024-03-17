@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.maincontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 100px; */
+}
+.maintxt {
+  font-size: 110px;
+  font-weight: 900;
+  background: #ff3337;
+  background: linear-gradient(
+    to bottom right,
+    #ff3337 13%,
+    #d868ff 41%,
+    #802424 46%,
+    #c8a2c8 69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 40px;
+
+}
+.textrow p {
+  color: white;
+}
+img{
+  width: 30px;
+}
+.countercontainer {
+  height: 410px;
+  /* width: 90%; */
+  background: linear-gradient(
+    to bottom right,
+    #ff3337 13%,
+    #d868ff 41%,
+    #802424 46%,
+    #c8a2c8 69%
+  );
+  border-radius: 10px;
+  padding: 3px;
+  border: 1px solid black;
+}
+.counterrow {
+  padding: 0;
+  margin: 0;
+}
+.counterrow h1 {
+  font-size: 70px;
+}
+.counterrow .col {
+  height: 192px;
+  width: 100px;
+  background-color: white;
+  margin: 4px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: invert(100);
+}
+h5 {
+  color: white;
+}
+.textcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-width: 1024px) {
+  .textrow {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .maincontainer {
+    padding-top: 120px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .maincontainer {
+    margin: 100px;
+  }
+ 
+}
+@media only screen and (max-width: 320px) {
+  .maincontainer {
+    margin: 120px;
+  }
+ 
+}
