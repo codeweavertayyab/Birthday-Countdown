@@ -1,4 +1,4 @@
-const countdownDate = new Date("April 30, 2024 00:00:00").getTime();
+const countdownDate = new Date("April 30, 2025 00:00:00").getTime();
 
 const countdownTimer = setInterval(updateCountdown, 1000);
 
